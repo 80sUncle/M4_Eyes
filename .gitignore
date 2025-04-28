@@ -1,0 +1,19 @@
+# 基础排除规则
+*.uf2          # 排除二进制文件（后续需用 Git LFS）
+*.bin
+*.hex
+
+# 开发环境文件
+.vscode/
+.idea/
+*.suo
+*.user
+
+# 编译生成文件
+build/
+dist/
+*.o
+*.d
+
+# 日志文件
+*.log
